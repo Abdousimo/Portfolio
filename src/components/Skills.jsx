@@ -1,5 +1,6 @@
 import React from 'react'
 import data from '@/data'
+import Image from 'next/image'
 
 const Skills = () => {
 
@@ -14,7 +15,7 @@ const Skills = () => {
              {data.map(item=>(
               <div key={item} className='flex flex-col justify-center items-center'>
                 <div className='relative w-16 h-16 md:w-20 md:h-20 hover:scale-110'>
-                  <img src={item?.image} alt='/' width={20} height={20} className='object-contain w-full h-full'/>
+                  <Image src={item?.image} alt='/' width={20} height={20} className='object-contain w-full h-full'/>
                 </div>
                 <p className='text-sm text-white py-2'>{item?.name}</p>
               </div>
