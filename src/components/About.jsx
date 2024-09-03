@@ -7,16 +7,16 @@ const About = () => {
         <div className="w-full flex justify-center items-center py-6">
              <h1 id="section" className="text-xl md:text-3xl">ABOUT ME</h1>
         </div>
-        <div className="container mx-auto h-full flex flex-col lg:flex-row">
+        <div className="container mx-auto h-full flex flex-col lg:flex-row gap-10">
         <div className="w-full lg:w-1/2 flex flex-col justify-center">
-            <p className="">Im <span className="text-xl text-gray-400 py-2 font-semibold">Abderrezague ismail</span></p>
+            <p className="">I{'\'m'} <span className="text-xl text-gray-400 py-2 font-semibold">Abderrezague ismail</span></p>
             <p className="text-md text-gray-100 py-2">
             A Full-stack Developer from Algeria. I am a student at the higher school of Computer Science (ESI Algiers ex.INI). 
-            Ive always been fascinated with how things work. 
+            I{'\'ve'} always been fascinated with how things work. 
             fast forward to 2 years into school and im now structuring, developing and implementing incredible web and mobile apps.
             </p>
             <p className="text-md text-gray-100 py-2">
-            Believe ive got the right skills and technologies to take your online presence on the level it truly deserves. 
+            Believe i{'\'ve'} got the right skills and technologies to take your online presence on the level it truly deserves. 
             Your website should be your no1 sales agent and its works 
             24/7, Get a quote now thats best for your business.
             </p>
