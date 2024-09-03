@@ -1,15 +1,15 @@
-import Image from 'next/image'
-import React from 'react'
+import Image from "next/image"
+import React from "react"
 
 const About = () => {
   return (
-    <section id='about' className='bg-[#252675] text-white pb-10'>
-        <div className='w-full flex justify-center items-center py-6'>
-             <h1 id='section' className="text-xl md:text-3xl">ABOUT ME</h1>
+    <section id="about" className="bg-[#252675] text-white pb-10">
+        <div className="w-full flex justify-center items-center py-6">
+             <h1 id="section" className="text-xl md:text-3xl">ABOUT ME</h1>
         </div>
         <div className="container mx-auto h-full flex flex-col lg:flex-row">
         <div className="w-full lg:w-1/2 flex flex-col justify-center">
-            <p className="">I'm <span className='text-xl text-gray-400 py-2 font-semibold'>Abderrezague ismail</span></p>
+            <p className="">I'm <span className="text-xl text-gray-400 py-2 font-semibold">Abderrezague ismail</span></p>
             <p className="text-md text-gray-100 py-2">
             A Full-stack Developer from Algeria. I am a student at the higher school of Computer Science (ESI Algiers ex.INI). 
             I've always been fascinated with how things work. 
