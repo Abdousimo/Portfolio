@@ -3,8 +3,8 @@ import React from "react"
 
 const About = () => {
   return (
-    <section id="about" className="bg-[#252675] text-white pb-10">
-        <div className="w-full flex justify-center items-center py-6">
+    <section id="about" className="bg-[#252675] text-white pb-20">
+        <div className="w-full flex justify-center items-center py-8">
              <h1 id="section" className="text-xl md:text-3xl">ABOUT ME</h1>
         </div>
         <div className="container mx-auto h-full flex flex-col lg:flex-row gap-10">
@@ -22,8 +22,8 @@ const About = () => {
             </p>
             <button className="p-4 my-4 bg-blue-800 hover:bg-blue-600 text-white rounded-lg max-w-[15rem]">Download my resume</button>
         </div>
-        <div className="relative w-full lg:w-1/2 flex justify-center items-center py-24 lg:py-0">
-             <Image src="/undraw_developer_activity_re_39tg.svg" alt="/" fill={true} className="w-10/12 h-96"/>
+        <div className="w-full lg:w-1/2 flex justify-center items-center py-24 lg:py-0">
+             <Image width={400} height={400} src="/undraw_developer_activity_re_39tg.svg" alt="/" className="w-10/12 h-96"/>
         </div>
       </div>
     </section>
