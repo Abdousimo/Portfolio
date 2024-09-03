@@ -1,5 +1,6 @@
 import React from 'react'
 import Link from 'next/link'
+import Image from 'next/image'
 
 const Hero = () => {
   return (
@@ -13,7 +14,7 @@ const Hero = () => {
             <Link href={"/#contact"} className="p-4 my-4 bg-blue-800 hover:bg-blue-600 text-white text-center rounded-lg max-w-[15rem]">Contact me</Link>
         </div>
         <div className="w-full lg:w-1/2 flex justify-center items-center py-24 lg:py-0">
-             <img src="/undraw_coding_re_iv62.svg" alt="/" className="w-10/12"/>
+             <Image width={400} height={400} src="/undraw_coding_re_iv62.svg" alt="/" className="w-10/12 h-96"/>
         </div>
       </div>
     </section>

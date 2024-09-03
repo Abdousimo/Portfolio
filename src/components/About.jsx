@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import React from 'react'
 
 const About = () => {
@@ -21,8 +22,8 @@ const About = () => {
             </p>
             <button className="p-4 my-4 bg-blue-800 hover:bg-blue-600 text-white rounded-lg max-w-[15rem]">Download my resume</button>
         </div>
-        <div className="w-full lg:w-1/2 flex justify-center items-center py-24 lg:py-0">
-             <img src="/undraw_developer_activity_re_39tg.svg" alt="/" className="w-10/12"/>
+        <div className="relative w-full lg:w-1/2 flex justify-center items-center py-24 lg:py-0">
+             <Image src="/undraw_developer_activity_re_39tg.svg" alt="/" fill={true} className="w-10/12 h-96"/>
         </div>
       </div>
     </section>
