@@ -1,12 +1,16 @@
 import React from 'react'
 import data from '@/data'
 import Image from 'next/image'
+import { motion } from 'framer-motion'
 
 const Skills = () => {
 
    
   return (
-    <section id='skills' className='bg-[#161753] pb-10'>
+    <section 
+      id='skills' 
+      className='bg-[#161753] pb-10'
+    >
         <div className='w-full flex flex-col justify-center items-center pt-8'>
              <h1 className='text-white text-xl md:text-3xl'>MY SKILLS</h1>
              <span className='w-12 h-1 bg-gray-600'></span>
