@@ -14,7 +14,7 @@ const About = () => {
             <p className="text-md text-gray-100 py-2">
             Mern-stack Developer from Algeria. I am a student at the higher school of Computer Science (ESI Algiers ex.INI). 
             I{'\'ve'} always been fascinated with how things work. 
-            fast forward to 5 years into school and im now structuring, developing and implementing incredible web and mobile apps.
+            fast forward to 5 years into school and i{'\'m'} now structuring, developing and implementing incredible web and mobile apps.
             </p>
             <p className="text-md text-gray-100 py-2">
             Believe i{'\'ve'} got the right skills and technologies to take your online presence on the level it truly deserves. 
