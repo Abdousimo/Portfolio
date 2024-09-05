@@ -2,19 +2,17 @@
 import React, { useState } from 'react'
 import Link from 'next/link'
 import { IoClose, IoReorderThreeOutline } from "react-icons/io5";
-import { Italiana } from 'next/font/google';
+import { Yellowtail } from 'next/font/google';
 
-const italiana = Italiana({subsets:["latin"],weight:"400"})
+const yellowtail = Yellowtail({subsets:["latin"],weight:"400"})
 
 const Navbar = () => {
     const [open,setOpen] = useState(false)
   return (
     <nav>
-
-        {/*Desktop nav*/}
-        <div className='h-20 w-full flex items-center justify-between px-4 lg:px-8 shadow-md fixed top-0 z-20 bg-[#13144c]'>
-            <Link className={italiana.className} href={'/'}>
-                 <h1 className="text-2xl text-white">Ismail.</h1>
+        <div className='h-20 w-full flex items-center justify-between px-[1rem] lg:px-[2rem] self-center shadow-md fixed top-0 z-20 bg-[#13144c] opacity-95'>
+            <Link className={yellowtail.className} href={'/'}>
+                 <h1 className="text-3xl text-white">Ismail<span className='pl-1 text-blue-800'>.</span></h1>
             </Link>
             <ul className='lg:flex justify-between items-center gap-8 hidden'>
                 <li className='hover:text-gray-400 text-gray-200 cursor-pointer'>
@@ -44,7 +42,7 @@ const Navbar = () => {
                 </li>
            </ul>
            {open ?
-           <button onClick={()=>setOpen(!open)} className='block lg:hidden text-white duration-500'>
+           <button onClick={()=>setOpen(!open)} className={`block lg:hidden text-white duration-500 ${open && 'rotate-180'}`}>
                 <IoClose size={30}/>
            </button>
            :
@@ -61,27 +59,28 @@ const Navbar = () => {
                     </Link>
                 </li>
                 <li className='hover:text-gray-400 text-gray-200 cursor-pointer'>
-                    <Link href={'/#about'}>
+                    <Link onClick={()=>setOpen(!open)} href={'/#about'}>
                         About me
                     </Link>
                 </li>
                 <li className='hover:text-gray-400 text-gray-200 cursor-pointer'>
-                    <Link href={'/#works'}>
-                        Works
-                    </Link>
-                </li>
-                <li className='hover:text-gray-400 text-gray-200 cursor-pointer'>
-                    <Link href={'/#skills'}>
+                    <Link onClick={()=>setOpen(!open)} href={'/#skills'}>
                         Skills
                     </Link>
                 </li>
                 <li className='hover:text-gray-400 text-gray-200 cursor-pointer'>
-                    <Link href={'/#contact'}>
+                    <Link onClick={()=>setOpen(!open)} href={'/#works'}>
+                        Works
+                    </Link>
+                </li>
+                <li className='hover:text-gray-400 text-gray-200 cursor-pointer'>
+                    <Link onClick={()=>setOpen(!open)} href={'/#contact'}>
                         Contact
                     </Link>
                 </li>
            </ul>
         </div>
+        
     </nav>
   )
 }
