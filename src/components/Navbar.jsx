@@ -26,8 +26,8 @@ const Navbar = () => {
                     </Link>
                 </li>
                 <li className='hover:text-gray-400 text-gray-200 cursor-pointer'>
-                    <Link href={'/#works'}>
-                        Works
+                    <Link href={'/#work'}>
+                        Work
                     </Link>
                 </li>
                 <li className='hover:text-gray-400 text-gray-200 cursor-pointer'>
@@ -69,8 +69,8 @@ const Navbar = () => {
                     </Link>
                 </li>
                 <li className='hover:text-gray-400 text-gray-200 cursor-pointer'>
-                    <Link onClick={()=>setOpen(!open)} href={'/#works'}>
-                        Works
+                    <Link onClick={()=>setOpen(!open)} href={'/#work'}>
+                        Work
                     </Link>
                 </li>
                 <li className='hover:text-gray-400 text-gray-200 cursor-pointer'>

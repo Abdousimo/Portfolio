@@ -11,8 +11,8 @@ const Skills = () => {
              <h1 className='text-white text-xl md:text-3xl'>MY SKILLS</h1>
              <span className='w-12 h-1 bg-gray-600'></span>
         </div>
-        <div className='w-full flex justify-center items-center pt-8'>
-             <p className='text-white text-sm'>The presented list represents the technologies i{'\'m'} used to work with</p>
+        <div className='container w-full flex justify-center items-center pt-8'>
+             <p className='text-white text-center text-sm'>The presented list represents the technologies i{'\'m'} used to work with</p>
         </div>
         <div className='container flex w-full justify-center'>
           <div className='flex items-center justify-center flex-wrap gap-x-16 gap-y-12 py-16'>
