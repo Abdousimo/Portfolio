@@ -98,5 +98,20 @@ export const WorksArray = [
     gitHub: "",
     demo: "https://intaliq.org/en"
   },
+  {
+    id: 7,
+    title: "Conflow",
+    description: "Description for project five",
+    image: "/intaliq.JPG",
+    techs:[
+          {name:"tailwinds-css"}, 
+          {name:"Next.js"} ,
+          {name:"Shadcn UI"} , 
+          {name:"Nest js"} ,
+          {name:"PostgreSQL"}
+        ],
+    gitHub: "",
+    demo: "https://conflow.esi.dz"
+  },
 ]
 
