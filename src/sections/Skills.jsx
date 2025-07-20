@@ -1,7 +1,7 @@
 import React from 'react'
-import data from '@/data'
 import Image from 'next/image'
-import { motion } from 'framer-motion'
+import { skills } from '@/data'
+
 
 const Skills = () => {
 
@@ -20,9 +20,9 @@ const Skills = () => {
         </div>
         <div className='container flex w-full justify-center'>
           <div className='flex items-center justify-center flex-wrap gap-x-16 gap-y-12 py-16'>
-              {data.map(item=>(
+              {skills.map(item=>(
                 <div key={item} className='flex flex-col justify-center items-center'>
-                  <div className={`relative w-16 h-16 md:w-20 md:h-20 lg:w-24 lg:h-24 hover:scale-110 duration-500 ${item.name === 'Express js' && 'bg-white p-2 rounded-full'}`}>
+                  <div className={`relative w-14 h-14 md:w-20 md:h-20 lg:w-24 lg:h-24 hover:scale-110 duration-500 ${item.name === 'Express js' && 'bg-white p-2 rounded-full'}`}>
                     <Image src={item?.image} alt='/' width={20} height={20} className='object-contain w-full h-full'/>
                   </div>
                   <p className='text-sm text-white py-2'>{item?.name}</p>

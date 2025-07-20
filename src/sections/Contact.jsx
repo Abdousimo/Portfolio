@@ -16,10 +16,10 @@ const Contact = () => {
                 <span className='w-12 h-1 bg-gray-600'></span>
             </div>
           <div className='flex flex-wrap container pb-10'>
-            <div className='relative w-full lg:max-w-[50%] bg-transparent px-4 space-y-4 text-white'>
+            <div className='relative w-full lg:max-w-[50%] bg-transparent space-y-4 text-white'>
                   <h1 className='text-2xl font-semibold'>Contact Information</h1>
                   <p className='text-sm'>Do you Have projects ? or maybe just you want to say hello ? i{'\'m'} love to hear from you .</p>
-                  <div className='px-2 space-y-6 pt-4'>
+                  <div className='space-y-6 pt-4'>
                       <div className='flex items-center gap-3'>
                         <span className='text-[#1a42e2]'>
                           <FaRegUser size={22}/>

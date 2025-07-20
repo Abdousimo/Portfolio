@@ -9,8 +9,8 @@ const yellowtail = Yellowtail({subsets:["latin"],weight:"400"})
 const Navbar = () => {
     const [open,setOpen] = useState(false)
   return (
-    <nav>
-        <div className='h-20 w-full flex items-center justify-between px-[1rem] lg:px-[2rem] self-center shadow-md fixed top-0 z-20 bg-[#13144c] opacity-95'>
+    <nav className='h-20 w-full fixed top-0 z-10 bg-[#13144c] opacity-95 flex justify-center'>
+        <div className='container h-20 w-full flex items-center justify-between shadow-md fixed top-0 z-20 px-[1rem]'>
             <Link className={yellowtail.className} href={'/'}>
                  <h1 className="text-3xl text-white">Ismail<span className='pl-1 text-blue-800'>.</span></h1>
             </Link>
@@ -26,13 +26,13 @@ const Navbar = () => {
                     </Link>
                 </li>
                 <li className='hover:text-gray-400 text-gray-200 cursor-pointer'>
-                    <Link href={'/#work'}>
-                        Work
+                    <Link href={'/#skills'}>
+                        Skills
                     </Link>
                 </li>
                 <li className='hover:text-gray-400 text-gray-200 cursor-pointer'>
-                    <Link href={'/#skills'}>
-                        Skills
+                    <Link href={'/#work'}>
+                        Work
                     </Link>
                 </li>
                 <li className='hover:text-gray-400 text-gray-200 cursor-pointer'>
@@ -51,7 +51,7 @@ const Navbar = () => {
            </button>
            }
         </div>
-        <div className={`h-screen w-full fixed top-0 z-10 bg-black/70 p-2 duration-500 ${open ? "left-0" : "-left-[1000rem]"}`}>
+        <div className={`h-screen w-full fixed top-0 z-10 bg-black/70 p-2 duration-1000 ${open ? "left-0" : "-left-[1000rem]"}`}>
            <ul className='h-[calc(100vh-80px)] mt-20 flex flex-col items-end gap-8 p-10'>
                 <li className='hover:text-gray-400 text-gray-200 cursor-pointer'>
                    <Link onClick={()=>setOpen(!open)} href={'/#hero'}>

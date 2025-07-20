@@ -23,7 +23,7 @@ const Hero = () => {
         <motion.div 
           initial={{ x: "100vw" }}
           animate={{ x: 0 }}
-          transition={{ duration: 0.7, type: "spring" }}
+          transition={{ duration: 0.5, type: "spring" }}
           className="w-full lg:w-1/2 flex justify-center items-center"
         >
              <Image width={400} height={400} src="/undraw_coding_re_iv62.svg" alt="/" className="w-10/12 h-96"/>
