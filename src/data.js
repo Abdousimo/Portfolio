@@ -39,8 +39,21 @@ export const WorksArray = [
    gitHub: "https://github.com/Abdousimo/Todo-App-nextjs",
    demo: "https://todo-app-nextjs-alpha.vercel.app/"
   },
-  {
+   {
     id: 3,
+    title: "Bag&go landing page",
+    description: "Description for Bag&go landing page",
+    image: "/baggo.JPG",
+    techs: [
+        {name:"tailwinds-css"} ,
+        {name:"Nextjs"} , 
+        {name:"Next-intl"} ,
+    ],
+    gitHub: "https://github.com/Abdousimo/Bag-and-go",
+    demo:"https://landing-page-kappa-gules.vercel.app/?"
+  },
+  {
+    id: 4,
     title: "Chat app",
     description: "Description for Chat app",
     image: "/chat.JPG",
@@ -56,7 +69,7 @@ export const WorksArray = [
     demo: "https://chat-app-cluw.vercel.app/"
   },
   {
-    id: 4,
+    id: 5,
     title: "Turismo",
     description: "Description for project three",
     image: "/turismo.JPG",
@@ -71,7 +84,7 @@ export const WorksArray = [
     demo: "/"
   },
   {
-    id: 5,
+    id: 6,
     title: "Intaliq",
     description: "Description for project five",
     image: "/intaliq.JPG",

@@ -4,7 +4,7 @@ import Link from 'next/link'
 import { IoClose, IoReorderThreeOutline } from "react-icons/io5";
 import { Yellowtail } from 'next/font/google';
 
-const yellowtail = Yellowtail({subsets:["latin"],weight:"400"})
+const yellowtail = Yellowtail({subsets:["latin"], weight:"400"})
 
 const Navbar = () => {
     const [open,setOpen] = useState(false)
