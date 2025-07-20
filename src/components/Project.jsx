@@ -28,7 +28,7 @@ const Project = ({image,title,techs,gitHub,demo}) => {
         })
         }
         </div>
-      <div className='absolute bottom-4 left-4 flex gap-6'>
+      <div className='absolute bottom-4 left-0 flex gap-6'>
         <Link href={`${gitHub}`} target='_blank' className='text-white hover:text-blue-700'>
           <FaGithub size={20}/>
         </Link>
