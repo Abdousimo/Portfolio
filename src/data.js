@@ -66,7 +66,7 @@ export const WorksArray = [
           {name:"mongoose"} ,
           {name:"vercel"}],
     gitHub: "https://github.com/Abdousimo/Chat-App",
-    demo: "https://chat-app-cluw.vercel.app/"
+    demo: ""
   },
   {
     id: 5,
@@ -81,7 +81,7 @@ export const WorksArray = [
           {name:"SQL"}
         ],
     gitHub: "https://github.com/Abdousimo/Turismo",
-    demo: "/"
+    demo: ""
   },
   {
     id: 6,
@@ -102,7 +102,7 @@ export const WorksArray = [
     id: 7,
     title: "Conflow",
     description: "Description for project five",
-    image: "/intaliq.JPG",
+    image: "/conflow.JPG",
     techs:[
           {name:"tailwinds-css"}, 
           {name:"Next.js"} ,
