@@ -100,6 +100,21 @@ export const WorksArray = [
   },
   {
     id: 7,
+    title: "Troky",
+    description: "Description for project five",
+    image: "/troky.JPG",
+    techs:[
+          {name:"tailwinds-css"}, 
+          {name:"React"} ,
+          {name:"Shadcn UI"} , 
+          {name:"Laravel"} ,
+          {name:"SQL"}
+        ],
+    gitHub: "",
+    demo: "https://troky.bm-tech-solutions.com/en"
+  },
+  {
+    id: 8,
     title: "Conflow",
     description: "Description for project five",
     image: "/conflow.JPG",
@@ -114,7 +129,7 @@ export const WorksArray = [
     demo: "https://conflow.esi.dz"
   },
   {
-    id: 8,
+    id: 9,
     title: "MedEasy",
     description: "Description for project five",
     image: "/medeasy.JPG",
