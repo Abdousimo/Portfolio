@@ -113,5 +113,20 @@ export const WorksArray = [
     gitHub: "",
     demo: "https://conflow.esi.dz"
   },
+  {
+    id: 8,
+    title: "MedEasy",
+    description: "Description for project five",
+    image: "/medeasy.JPG",
+    techs:[
+          {name:"tailwinds-css"}, 
+          {name:"Next.js"} ,
+          {name:"Shadcn UI"} , 
+          {name:"Nest js"} ,
+          {name:"PostgreSQL"}
+        ],
+    gitHub: "",
+    demo: "http://nwc4ww08o0s4wc0wg0kwsggw.34.89.195.219.sslip.io"
+  },
 ]
 

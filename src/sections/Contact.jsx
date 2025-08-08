@@ -51,8 +51,8 @@ const Contact = () => {
                    </Link>
                 </div>
             </div>
-            <form className='w-full lg:max-w-[50%] bg-transparent space-y-4'>
-                <h1 className='text-white text-sm'>Send me a message to work together</h1>
+            <form className='w-full lg:max-w-[50%] bg-transparent space-y-4 text-sm'>
+                <h1 className='text-white'>Send me a message to work together</h1>
                 <div className='w-full flex-wrap'>
                   <input
                    type='text' 
